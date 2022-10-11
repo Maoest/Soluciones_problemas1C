@@ -1,0 +1,21 @@
+
+'''
+Crear un codigo que calcule el area y el perimetro de un circulo.
+recomendacion: importar la libreria math 
+'''
+def area_perimetro('...'):
+''' Hacer el codigo apartir de esta linea '''
+
+solucion:
+
+import math
+math.pi
+
+r=int(input("ingrese el radio del circulo: "))
+def area_perimetro(r):
+  if r == 0:
+    print( 'el radio no puede ser 0')
+  else:
+    print('el perimetro es:',2*math.pi*r)
+    print('el area es:',math.pi*r**2)
+area_perimetro(r)
